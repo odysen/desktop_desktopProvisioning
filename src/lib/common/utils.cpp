@@ -13,10 +13,3 @@ int utils::arrsize(std::string* arr)
 
 	return (i - 1);
 }
-
-std::string utils::nullop(std::string nul)
-{
-	std::string tonull = nul + nulloutp;
-
-	return tonull;
-}

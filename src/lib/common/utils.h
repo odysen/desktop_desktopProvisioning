@@ -5,7 +5,6 @@
 
 namespace utils {
     int arrsize(std::string* arr);
-    std::string nullop(std::string nul);
 }
 
 #endif
