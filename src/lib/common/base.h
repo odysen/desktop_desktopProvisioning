@@ -1,7 +1,3 @@
-#define nulloutp " > /dev/null"
-#define logoutps " > ./provisioner.log"
-#define logoutp " >> ./provisioner.log"
-
 #define red "\033[31m"
 #define ylw "\033[33m"
 #define grn "\033[32m"
