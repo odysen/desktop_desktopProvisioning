@@ -5,7 +5,7 @@
 
 namespace pac {
     namespace strap {
-        void install(std::string kerned);
+        void install(std::string packageListPath);
         void setmirr(std::string CC);
     }
     namespace man {
