@@ -7,7 +7,7 @@
 #include "lib/common/cli.h"
 #include "lib/common/utils.h"
 
-void pac::strap::install(std::string kerned)
+void pac::strap::install(std::string kerned) // TODO: rewrite the pacstrap implementation to use a package list pre-supplied in the config
 {
 	std::cout << ylw << "\nInstalling basic packages...\n" << def;
 	cli::log("Installing basic packages...");
@@ -22,6 +22,8 @@ void pac::strap::install(std::string kerned)
 	std::cout << grn << "Done.\n" << def;
 	cli::log("Done.");
 }
+
+// also TODO: allow generating a package list with this, too
 
 void pac::strap::setmirr(std::string CC)
 {
