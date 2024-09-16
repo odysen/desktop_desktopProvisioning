@@ -1,7 +1,7 @@
-#include <string>
-
 #ifndef PAC_H
 #define PAC_H
+
+#include <string>
 
 namespace pac {
     namespace strap {

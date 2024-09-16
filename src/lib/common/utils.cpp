@@ -1,7 +1,6 @@
 #include <iostream>
 #include <cstdio>
 #include <string>
-#include <unistd.h>
 #include "utils.h"
 #include "lib/common/base.h"
 

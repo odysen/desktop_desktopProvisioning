@@ -1,7 +1,6 @@
 #include <iostream>
 #include <cstdio>
 #include <string>
-#include <unistd.h>
 #include "pac.h"
 #include "lib/common/base.h"
 #include "lib/common/cli.h"

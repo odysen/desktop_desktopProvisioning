@@ -2,7 +2,6 @@
 #include <cstdio>
 #include <string>
 #include <vector>
-#include <unistd.h>
 #include "partitioner.h"
 
 std::vector<std::string> partitions;
