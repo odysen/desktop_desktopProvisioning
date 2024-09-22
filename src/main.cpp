@@ -21,6 +21,7 @@ int main (int argc, char* argv[]) {
             prov::execute(argv[3]);
             return 0;
         } // TODO: need to handle incorrect commands
+        // speaking of -- the provisioner will need to handle internet connection somehow, hmm...
     }
     std::cout << "        -*+-                                                              " << std::endl;
     std::cout << "     =*######*=                                                           " << std::endl;
@@ -36,5 +37,8 @@ int main (int argc, char* argv[]) {
     std::cout << "     =*######*=                                                           " << std::endl;
     std::cout << "        -**-                                                              " << std::endl;
 
-    cli::log("...");
+    cli::log("Running in CLI mode...");
+
+    // now we go as per arch wiki
+    cli::log("Ensure an internet connection is available before proceeding!");
 }
