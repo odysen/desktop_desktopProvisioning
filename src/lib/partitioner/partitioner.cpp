@@ -16,10 +16,11 @@ void party::mount() {
     // STUB
 }
 
-void party::createTable() {
+int party::createTable() {
     cli::log("Creating partition table...");
     system("genfstab -U /mnt >> /mnt/etc/fstab");
     cli::okay("Done."); //TODO: check if file actually created without issues
+    return 0;
 }
 
 void party::create(std::vector<std::string> partitions) {

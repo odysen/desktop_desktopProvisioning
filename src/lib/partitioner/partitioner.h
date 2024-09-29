@@ -7,7 +7,7 @@
 namespace party {
     void create(std::vector<std::string> partitions);
     void mount();
-    void createTable();
+    int createTable();
     std::string evaluateDrive();
 }
 
