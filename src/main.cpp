@@ -46,4 +46,8 @@ int main (int argc, char* argv[]) {
     cli::log("Running in CLI mode...");
 
     // now we go as per arch wiki
+    if (system("cat /sys/firmware/efi/fw_platform_size") == 64) {
+        cli::log("Running in UEFI mode...");
+        // arbitrary check, and isn't necessary - pretty much a STUB for now since we're planning on using systemd-boot anyway
+    }
 }
