@@ -9,6 +9,7 @@ std::vector<std::string> partitions;
 
 std::string party::evaluateDrive() {
     // STUB
+    // here we're actually much better off if we let the user choose the drive - i mean, how else?
     return "sda";
 }
 

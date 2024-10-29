@@ -46,5 +46,6 @@ int main (int argc, char* argv[]) {
     cli::log("Running in CLI mode...");
 
     // now we go as per arch wiki
-
+    cli::log("Entering partitioning...");
+    std::string userDrive = party::evaluateDrive(); //still a stub
 }
